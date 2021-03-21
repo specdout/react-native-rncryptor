@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      "react-native-rncryptor@1.0.2",
+      "/Users/andrewmay/Documents/Source/PlutoHealth/pm-ctl"
+    ]
+  ],
+  "_from": "react-native-rncryptor@1.0.2",
+  "_id": "react-native-rncryptor@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-ChQ6wjuDx1vkvDXKPse4MOIGPKAEon8vvjR+DeKkvPBRgTDDvfAwEuuCsJLAT67ibPi4lRcwIR90Y2auxoZkXA==",
+  "_location": "/react-native-rncryptor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-rncryptor@1.0.2",
+    "name": "react-native-rncryptor",
+    "escapedName": "react-native-rncryptor",
+    "rawSpec": "1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "1.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-rncryptor/-/react-native-rncryptor-1.0.2.tgz",
+  "_spec": "1.0.2",
+  "_where": "/Users/andrewmay/Documents/Source/PlutoHealth/pm-ctl",
+  "author": {
+    "name": "richfisher"
+  },
+  "bugs": {
+    "url": "https://github.com/richfisher/react-native-rncryptor-aes-256/issues"
+  },
+  "description": "React Native RNCryptor AES 256 encryption",
+  "homepage": "https://github.com/richfisher/react-native-rncryptor-aes-256#readme",
+  "keywords": [
+    "aes",
+    "aes-256",
+    "rncryptor",
+    "crypto",
+    "cbc",
+    "pbkdf2",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-rncryptor",
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/richfisher/react-native-rncryptor-aes-256.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}

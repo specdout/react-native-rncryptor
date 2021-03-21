@@ -1,0 +1,52 @@
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.2'
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file('debug.keystore')
+            storePassword 'android'
+            keyAlias 'rncryptordebugkey'
+            keyPassword 'android'
+        }
+        release {
+        storeFile file('release.keystore')
+            storePassword 'gryHR32\\yQN/t>E]'
+            keyAlias 'react-native-rncryptor'
+            keyPassword 'kaq9L3GY'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.facebook.react:react-native:+'
+    implementation 'org.cryptonode.jncryptor:jncryptor:+'
+}
+  
